@@ -10,7 +10,7 @@ I implemented it for the Deep Neural Networks course at University of Warsaw (MI
 - the MLP is also proved to be useful, by training a standard linear regression task - the network reaches the accuracy of ~0.9 in a minute of wall time
 
 What's cool in all of this? Please just take a look at the elegance of these calculations:
-```
+```python
 # Now go backward from the final cost applying backpropagation
 deriv = self.cost_derivative(afters[-1], y)
 first_iteration = True
