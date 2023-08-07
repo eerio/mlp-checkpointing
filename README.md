@@ -7,7 +7,7 @@ The multilayer perceptron is a neural network architecture composed of multiple 
 I implemented it for the Deep Neural Networks course at University of Warsaw (MIMUW) in 2022, scoring 9.5/10. The notebook contains:
 - the whole implementation, all the comments, links to papers and mathematical notes about calculating matrix derivatives (for the backpropagation part)
 - at the end of it, benchmarks are presented, which prove that the checkpointing really does reduce the asymptotic space complexity (from `O(n)` to `O(sqrt(n))`)
-- the MLP is also proved to be useful, by training a standard linear regression task - the network reaches the accuracy of ~0.9 in a minute of wall time
+- the MLP is also proved to be useful, by training a standard linear regression task
 
 What's cool in all of this? Please just take a look at the elegance of these calculations:
 ```python
